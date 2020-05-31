@@ -26,7 +26,8 @@ while(True):
         cursor = connection.execute("SELECT READING_DATE FROM TEMPERATURE_READINGS ORDER BY ID DESC LIMIT 1")
         for row in cursor:
             end_time = row[0]
-        fever_monitoring.save_fever_event(start_time,end_time)
+        if(start_time is not None):
+            fever_monitoring.save_fever_event(start_time,end_time)
     prv_fever_status = fever_status
     time.sleep(0.5)
 # except:

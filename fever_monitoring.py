@@ -1,6 +1,6 @@
 import db_config
 import time
-from firebase import firebase as fb
+#from firebase import firebase as fb
 
 def check_fever(fever_status):
     connection = db_config.connect_to_db()
@@ -38,8 +38,8 @@ def save_fever_event(start_time,end_time):
     print("event added in local database")
     connection.close()
 
-def post_to_firebase(start_time):
-    firebase = fb.FirebaseApplication('https://fever-e23e5.firebaseio.com/', None)
-    value = {"Fever event started": str(start_time)}
-    result = firebase.patch('/events', value)
-    print(result)
+# def post_to_firebase(start_time):
+#     firebase = fb.FirebaseApplication('https://fever-e23e5.firebaseio.com/', None)
+#     value = {"Fever event started": str(start_time)}
+#     result = firebase.patch('/events', value)
+#     print(result)
