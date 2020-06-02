@@ -1,6 +1,10 @@
 import db_config
 import time
-#from firebase import firebase as fb
+import json
+import logging
+
+from firebase import firebase as fb
+import plotly.express as px
 
 def check_fever(fever_status):
     connection = db_config.connect_to_db()
@@ -38,8 +42,24 @@ def save_fever_event(start_time,end_time):
     print("event added in local database")
     connection.close()
 
-# def post_to_firebase(start_time):
-#     firebase = fb.FirebaseApplication('https://fever-e23e5.firebaseio.com/', None)
-#     value = {"Fever event started": str(start_time)}
-#     result = firebase.patch('/events', value)
-#     print(result)
+def post_to_firebase(start_time):
+    firebase = fb.FirebaseApplication('https://fevermonitoring.firebaseio.com/', None)
+    data = json.dumps({'timestamp': start_time, 'event': 'FEVER SEQUENCE BEGINNING DETECTED!'})
+    result = firebase.post("/events", data)
+    print(result)
+
+def post_to_plotly(timestamp, start=False, end=False):
+    connection = db_config.connect_to_db()
+    cursor = connection.execute("SELECT TEMPERATURE FROM TEMPERATURE_READINGS ORDER BY ID DESC LIMIT 1")
+
+    for row in cursor:
+        temperature = row[0]
+    if start:
+        post_to_plotly.temperatures = []
+    post_to_plotly.temperatures.append((timestamp, temperature))
+    if end:
+        plot = px.scatter(x=[temperature[0] for temperature in post_to_plotly.temperatures], y=[temperature[1] for temperature in post_to_plotly.temperatures])
+        plot.write_html('plot_{}.html'.format(post_to_plotly.temperatures[0][0]))
+
+    logging.info('Plotly: timestamp {} temperature {}'.format(timestamp, temperature))
+    connection.close()
