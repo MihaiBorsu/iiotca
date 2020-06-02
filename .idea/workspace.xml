@@ -26,81 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d283478-e52e-4621-856f-1dfa9f531109" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fever_monitoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/fever_monitoring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests-1.1.0.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests-1.1.0.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests-1.1.0.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests-1.1.0.egg-info/installed-files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests-1.1.0.egg-info/not-zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests-1.1.0.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/adapters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/certs.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/certs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/hooks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/big5freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/big5prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/chardistribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/charsetgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/charsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/codingstatemachine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/escprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/escsm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/eucjpprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/euckrfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/euckrprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/euctwfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/euctwprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/gb2312freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/gb2312prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/hebrewprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/jisfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/jpcntx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/langbulgarianmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/langcyrillicmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/langgreekmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/langhebrewmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/langhungarianmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/langthaimodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/latin1prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/mbcharsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/mbcsgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/mbcssm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/sbcharsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/sbcsgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/sjisprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/universaldetector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/charade/utf8prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/filepost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/packages/ordered_dict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/packages/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/poolmanager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/packages/urllib3/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/sessions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/status_codes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/structures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/localenvironment/lib/python3.6/site-packages/requests/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temperature_monitoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/temperature_monitoring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -123,6 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -173,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590921446867</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add firebase and plotly">
+      <created>1591105373117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591105373117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,25 +144,29 @@
     <MESSAGE value="implement database and first 2 features, plotify and firebase not implemented yet" />
     <MESSAGE value="bug start_time fixed" />
     <MESSAGE value="add localenv" />
-    <option name="LAST_COMMIT_MESSAGE" value="add localenv" />
+    <MESSAGE value="add firebase and plotly" />
+    <option name="LAST_COMMIT_MESSAGE" value="add firebase and plotly" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2622" y="345" width="508" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590514529140">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2622" y="345" width="508" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590514529140" />
-    <state x="2478" y="112" width="796" height="850" key="CommitChangelistDialog2" timestamp="1590921445476">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="328" y="108" width="796" height="850" key="CommitChangelistDialog2" timestamp="1591105372979">
+      <screen x="0" y="0" width="3840" height="1040" />
     </state>
     <state x="2478" y="112" width="796" height="850" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590921445476" />
-    <state x="2663" y="298" width="426" height="478" key="FileChooserDialogImpl" timestamp="1590923049157">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="328" y="108" key="CommitChangelistDialog2/0.0.3840.1040@0.0.3840.1040" timestamp="1591105372979" />
+    <state x="2394" y="189" width="426" height="478" key="FileChooserDialogImpl" timestamp="1591107421349">
+      <screen x="0" y="0" width="3840" height="1040" />
     </state>
     <state x="743" y="287" width="426" height="478" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1590922142275" />
     <state x="2663" y="298" width="426" height="478" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590923049157" />
-    <state x="2475" y="276" width="802" height="522" key="Vcs.Push.Dialog.v2" timestamp="1590921448979">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="2394" y="189" key="FileChooserDialogImpl/0.0.3840.1040@0.0.3840.1040" timestamp="1591107421349" />
+    <state x="316" y="266" width="802" height="522" key="Vcs.Push.Dialog.v2" timestamp="1591105378160">
+      <screen x="0" y="0" width="3840" height="1040" />
     </state>
     <state x="2475" y="276" width="802" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590921448979" />
+    <state x="316" y="266" key="Vcs.Push.Dialog.v2/0.0.3840.1040@0.0.3840.1040" timestamp="1591105378160" />
   </component>
 </project>
